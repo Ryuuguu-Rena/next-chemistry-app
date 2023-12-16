@@ -19,14 +19,17 @@
 }
 .atomNum{
   position: absolute;
+  background: #fff;
+  text-align: center;
+  width: 30%;
   top: 5%;
-  right: 20%;
+  right: 14%;
   font-size: 7pt;
   font-weight: bold;
 }
 .atomMass{
   position: absolute;
-  left: 45%;
+  right: 15%;
   top: 30%;
   font-size: 7pt;
   font-weight: bold;
@@ -75,4 +78,21 @@
   margin: auto;
   font-weight: bold;
   font-size: 16pt;
+}
+.bSign{
+  left: unset;
+  right: 5%;
+}
+.bName{
+  left: unset;
+  right: 5%;
+}
+.bAtomNum{
+  left: 12%;
+}
+.bAtomMass{
+  left: 12%;
+}
+.bElecConf{
+  left: 0%;
 }
