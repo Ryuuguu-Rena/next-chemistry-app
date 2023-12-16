@@ -1,0 +1,78 @@
+.elem{
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+.sign{
+  position: absolute;
+  font-size: 16pt;
+  font-weight: bold;
+  top: -10%;
+  left: 5%;
+}
+.name{
+  position: absolute;
+  font-size: 8pt;
+  font-weight: bold;
+  bottom: 0%;
+  left: 5%;
+}
+.atomNum{
+  position: absolute;
+  top: 5%;
+  right: 20%;
+  font-size: 7pt;
+  font-weight: bold;
+}
+.atomMass{
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  font-size: 7pt;
+  font-weight: bold;
+}
+.elecConf{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+}
+.electr{
+  font-size: 5pt;
+  font-weight: bold;
+  line-height: 5pt;
+}
+.metal{
+  background: #7bff86;
+}
+.nemetal{
+  background: #f8fa6c;
+}
+.amphotern{
+  background: #7efbff;
+}
+.gas{
+  background: #b862ff
+}
+.empty{
+
+}
+.markup{
+  position: relative;
+  border: 1px solid black;
+  overflow: hidden;
+  text-align: center;
+}
+.markupCont{
+  line-height: 0;
+  position: absolute;
+  height: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-weight: bold;
+  font-size: 16pt;
+}

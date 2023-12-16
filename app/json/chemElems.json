@@ -1,0 +1,1494 @@
+[
+  {
+    "id": 0,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 1,
+    "content": "I",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 2,
+    "content": "II",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 3,
+    "content": "III",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 4,
+    "content": "IV",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 5,
+    "content": "V",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 6,
+    "content": "VI",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 7,
+    "content": "VII",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 8,
+    "content": "VIII",
+    "span": "column-span-3",
+    "type": "markup"
+  },
+  {
+    "id": 9,
+    "content": "1",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 10,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 11,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 12,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 13,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 14,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 15,
+    "span": "",
+    "type": "empty"
+  },
+  {
+    "id": 16,
+    "sign": "H",
+    "name": "Водород",
+    "atomMass": 1.00794,
+    "subgroup": "a",
+    "elecConf": [
+      1
+    ],
+    "chemProp": "n",
+    "atomNum": 1,
+    "type": "elem"
+  },
+  {
+    "id": 17,
+    "sign": "He",
+    "name": "Гелий",
+    "atomMass": 4.002602,
+    "subgroup": "a",
+    "elecConf": [
+      2
+    ],
+    "chemProp": "g",
+    "atomNum": 2,
+    "type": "elem"
+  },
+  {
+    "id": 18,
+    "span": "column-span-2 row-span-3",
+    "type": "empty"
+  },
+  {
+    "id": 19,
+    "content": "2",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 20,
+    "sign": "Li",
+    "name": "Литий",
+    "atomMass": 6.941,
+    "subgroup": "a",
+    "elecConf": [
+      1,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 3,
+    "type": "elem"
+  },
+  {
+    "id": 21,
+    "sign": "Be",
+    "name": "Бериллий",
+    "atomMass": 9.0122,
+    "subgroup": "a",
+    "elecConf": [
+      2,
+      2
+    ],
+    "chemProp": "a",
+    "atomNum": 4,
+    "type": "elem"
+  },
+  {
+    "id": 22,
+    "sign": "B",
+    "name": "Бор",
+    "atomMass": 10.811,
+    "subgroup": "a",
+    "elecConf": [
+      3,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 5,
+    "type": "elem"
+  },
+  {
+    "id": 23,
+    "sign": "C",
+    "name": "Углерод",
+    "atomMass": 12.011,
+    "subgroup": "a",
+    "elecConf": [
+      4,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 6,
+    "type": "elem"
+  },
+  {
+    "id": 24,
+    "sign": "N",
+    "name": "Азот",
+    "atomMass": 14.007,
+    "subgroup": "a",
+    "elecConf": [
+      5,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 7,
+    "type": "elem"
+  },
+  {
+    "id": 25,
+    "sign": "O",
+    "name": "Кислород",
+    "atomMass": 15.999,
+    "subgroup": "a",
+    "elecConf": [
+      6,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 8,
+    "type": "elem"
+  },
+  {
+    "id": 26,
+    "sign": "F",
+    "name": "Фтор",
+    "atomMass": 18.998,
+    "subgroup": "a",
+    "elecConf": [
+      7,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 9,
+    "type": "elem"
+  },
+  {
+    "id": 27,
+    "sign": "Ne",
+    "name": "Неон",
+    "atomMass": 20.179,
+    "subgroup": "a",
+    "elecConf": [
+      8,
+      2
+    ],
+    "chemProp": "g",
+    "atomNum": 10,
+    "type": "elem"
+  },
+  {
+    "id": 28,
+    "content": "3",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 29,
+    "sign": "Na",
+    "name": "Натрий",
+    "atomMass": 22.99,
+    "subgroup": "a",
+    "elecConf": [
+      1,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 11,
+    "type": "elem"
+  },
+  {
+    "id": 30,
+    "sign": "Mg",
+    "name": "Магний",
+    "atomMass": 24.305,
+    "subgroup": "a",
+    "elecConf": [
+      2,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 12,
+    "type": "elem"
+  },
+  {
+    "id": 31,
+    "sign": "Al",
+    "name": "Алюминий",
+    "atomMass": 26.9815,
+    "subgroup": "a",
+    "elecConf": [
+      3,
+      8,
+      2
+    ],
+    "chemProp": "a",
+    "atomNum": 13,
+    "type": "elem"
+  },
+  {
+    "id": 32,
+    "sign": "Si",
+    "name": "Кремний",
+    "atomMass": 28.086,
+    "subgroup": "a",
+    "elecConf": [
+      4,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 14,
+    "type": "elem"
+  },
+  {
+    "id": 33,
+    "sign": "P",
+    "name": "Фосфор",
+    "atomMass": 30.974,
+    "subgroup": "a",
+    "elecConf": [
+      5,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 15,
+    "type": "elem"
+  },
+  {
+    "id": 34,
+    "sign": "S",
+    "name": "Сера",
+    "atomMass": 32.066,
+    "subgroup": "a",
+    "elecConf": [
+      6,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 16,
+    "type": "elem"
+  },
+  {
+    "id": 35,
+    "sign": "Cl",
+    "name": "Хлор",
+    "atomMass": 35.453,
+    "subgroup": "a",
+    "elecConf": [
+      7,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 17,
+    "type": "elem"
+  },
+  {
+    "id": 36,
+    "sign": "Ar",
+    "name": "Аргон",
+    "atomMass": 39.948,
+    "subgroup": "a",
+    "elecConf": [
+      8,
+      8,
+      2
+    ],
+    "chemProp": "g",
+    "atomNum": 18,
+    "type": "elem"
+  },
+  {
+    "id": 37,
+    "content": "4",
+    "span": "row-span-2",
+    "type": "markup"
+  },
+  {
+    "id": 38,
+    "sign": "K",
+    "name": "Калий",
+    "atomMass": 39.098,
+    "subgroup": "a",
+    "elecConf": [
+      1,
+      8,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 19,
+    "type": "elem"
+  },
+  {
+    "id": 39,
+    "sign": "Ca",
+    "name": "Кальций",
+    "atomMass": 40.08,
+    "subgroup": "a",
+    "elecConf": [
+      2,
+      8,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 20,
+    "type": "elem"
+  },
+  {
+    "id": 40,
+    "sign": "Sc",
+    "name": "Скандий",
+    "atomMass": 44.956,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      9,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 21,
+    "type": "elem"
+  },
+  {
+    "id": 41,
+    "sign": "Ti",
+    "name": "Титан",
+    "atomMass": 47.9,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      10,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 22,
+    "type": "elem"
+  },
+  {
+    "id": 42,
+    "sign": "V",
+    "name": "Ванадий",
+    "atomMass": 50.941,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      11,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 23,
+    "type": "elem"
+  },
+  {
+    "id": 43,
+    "sign": "Cr",
+    "name": "Хром",
+    "atomMass": 51.9961,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      13,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 24,
+    "type": "elem"
+  },
+  {
+    "id": 44,
+    "sign": "Mn",
+    "name": "Марганец",
+    "atomMass": 54.938,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      13,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 25,
+    "type": "elem"
+  },
+  {
+    "id": 45,
+    "sign": "Fe",
+    "name": "Железо",
+    "atomMass": 55.845,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      14,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 26,
+    "type": "elem"
+  },
+  {
+    "id": 46,
+    "sign": "Co",
+    "name": "Кобальт",
+    "atomMass": 58.9332,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      15,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 27,
+    "type": "elem"
+  },
+  {
+    "id": 47,
+    "sign": "Ni",
+    "name": "Никель",
+    "atomMass": 58.6934,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      16,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 28,
+    "type": "elem"
+  },
+  {
+    "id": 48,
+    "sign": "Cu",
+    "name": "Медь",
+    "atomMass": 63.548,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 29,
+    "type": "elem"
+  },
+  {
+    "id": 49,
+    "sign": "Zn",
+    "name": "Цинк",
+    "atomMass": 65.39,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 30,
+    "type": "elem"
+  },
+  {
+    "id": 50,
+    "sign": "Ga",
+    "name": "Галий",
+    "atomMass": 69.72,
+    "subgroup": "a",
+    "elecConf": [
+      3,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 31,
+    "type": "elem"
+  },
+  {
+    "id": 51,
+    "sign": "Ge",
+    "name": "Германий",
+    "atomMass": 72.59,
+    "subgroup": "a",
+    "elecConf": [
+      4,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "a",
+    "atomNum": 32,
+    "type": "elem"
+  },
+  {
+    "id": 52,
+    "sign": "As",
+    "name": "Мышьяк",
+    "atomMass": 74.992,
+    "subgroup": "a",
+    "elecConf": [
+      5,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 33,
+    "type": "elem"
+  },
+  {
+    "id": 53,
+    "sign": "Se",
+    "name": "Селен",
+    "atomMass": 78.96,
+    "subgroup": "a",
+    "elecConf": [
+      6,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 34,
+    "type": "elem"
+  },
+  {
+    "id": 54,
+    "sign": "Br",
+    "name": "Бром",
+    "atomMass": 79.904,
+    "subgroup": "a",
+    "elecConf": [
+      7,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 35,
+    "type": "elem"
+  },
+  {
+    "id": 55,
+    "sign": "Kr",
+    "name": "Криптон",
+    "atomMass": 83.8,
+    "subgroup": "a",
+    "elecConf": [
+      8,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "g",
+    "atomNum": 36,
+    "type": "elem"
+  },
+  {
+    "id": 56,
+    "span": "column-span-2",
+    "type": "empty"
+  },
+  {
+    "id": 57,
+    "content": "5",
+    "span": "row-span-2",
+    "type": "markup"
+  },
+  {
+    "id": 58,
+    "sign": "Rb",
+    "name": "Рубидий",
+    "atomMass": 85.468,
+    "subgroup": "a",
+    "elecConf": [
+      1,
+      8,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 37,
+    "type": "elem"
+  },
+  {
+    "id": 59,
+    "sign": "Sr",
+    "name": "Стронций",
+    "atomMass": 87.62,
+    "subgroup": "a",
+    "elecConf": [
+      2,
+      8,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 38,
+    "type": "elem"
+  },
+  {
+    "id": 60,
+    "sign": "Y",
+    "name": "Иттрий",
+    "atomMass": 88.906,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      9,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 39,
+    "type": "elem"
+  },
+  {
+    "id": 61,
+    "sign": "Zr",
+    "name": "Цирконий",
+    "atomMass": 91.22,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      10,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 40,
+    "type": "elem"
+  },
+  {
+    "id": 62,
+    "sign": "Nb",
+    "name": "Ниобий",
+    "atomMass": 92.906,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      12,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 41,
+    "type": "elem"
+  },
+  {
+    "id": 63,
+    "sign": "Mo",
+    "name": "Молибден",
+    "atomMass": 95.94,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      13,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 42,
+    "type": "elem"
+  },
+  {
+    "id": 64,
+    "sign": "Tc",
+    "name": "Технеций",
+    "atomMass": 97.91,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      13,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 43,
+    "type": "elem"
+  },
+  {
+    "id": 65,
+    "sign": "Ru",
+    "name": "Рутений",
+    "atomMass": 101.07,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      15,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 44,
+    "type": "elem"
+  },
+  {
+    "id": 66,
+    "sign": "Rh",
+    "name": "Родий",
+    "atomMass": 102.906,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      16,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 45,
+    "type": "elem"
+  },
+  {
+    "id": 67,
+    "sign": "Pd",
+    "name": "Палладий",
+    "atomMass": 106.4,
+    "subgroup": "b",
+    "elecConf": [
+      0,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 46,
+    "type": "elem"
+  },
+  {
+    "id": 68,
+    "sign": "Ag",
+    "name": "Серебро",
+    "atomMass": 107.868,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 47,
+    "type": "elem"
+  },
+  {
+    "id": 69,
+    "sign": "Cd",
+    "name": "Кадмий",
+    "atomMass": 112.41,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 48,
+    "type": "elem"
+  },
+  {
+    "id": 70,
+    "sign": "In",
+    "name": "Индий",
+    "atomMass": 114.82,
+    "subgroup": "a",
+    "elecConf": [
+      3,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 49,
+    "type": "elem"
+  },
+  {
+    "id": 71,
+    "sign": "Sn",
+    "name": "Олово",
+    "atomMass": 118.71,
+    "subgroup": "a",
+    "elecConf": [
+      4,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 50,
+    "type": "elem"
+  },
+  {
+    "id": 72,
+    "sign": "Sb",
+    "name": "Сурьма",
+    "atomMass": 121.75,
+    "subgroup": "a",
+    "elecConf": [
+      5,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "a",
+    "atomNum": 51,
+    "type": "elem"
+  },
+  {
+    "id": 73,
+    "sign": "Te",
+    "name": "Теллур",
+    "atomMass": 127.6,
+    "subgroup": "a",
+    "elecConf": [
+      6,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 52,
+    "type": "elem"
+  },
+  {
+    "id": 74,
+    "sign": "I",
+    "name": "Иод",
+    "atomMass": 126.905,
+    "subgroup": "a",
+    "elecConf": [
+      7,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "n",
+    "atomNum": 53,
+    "type": "elem"
+  },
+  {
+    "id": 75,
+    "sign": "Xe",
+    "name": "Ксенон",
+    "atomMass": 131.29,
+    "subgroup": "a",
+    "elecConf": [
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "g",
+    "atomNum": 54,
+    "type": "elem"
+  },
+  {
+    "id": 76,
+    "span": "column-span-2",
+    "type": "empty"
+  },
+  {
+    "id": 77,
+    "content": "6",
+    "span": "row-span-2",
+    "type": "markup"
+  },
+  {
+    "id": 78,
+    "sign": "Cs",
+    "name": "Цезий",
+    "atomMass": 132.905,
+    "subgroup": "a",
+    "elecConf": [
+      1,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 55,
+    "type": "elem"
+  },
+  {
+    "id": 79,
+    "sign": "Ba",
+    "name": "Барий",
+    "atomMass": 137.33,
+    "subgroup": "a",
+    "elecConf": [
+      2,
+      8,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 56,
+    "type": "elem"
+  },
+  {
+    "id": 80,
+    "sign": "La",
+    "name": "Лантан",
+    "atomMass": 138.906,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      9,
+      18,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 57,
+    "type": "elem"
+  },
+  {
+    "id": 81,
+    "sign": "Hf",
+    "name": "Гафний",
+    "atomMass": 178.49,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      10,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 72,
+    "type": "elem"
+  },
+  {
+    "id": 82,
+    "sign": "Ta",
+    "name": "Тантал",
+    "atomMass": 180.948,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      11,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 73,
+    "type": "elem"
+  },
+  {
+    "id": 83,
+    "sign": "W",
+    "name": "Вольфрам",
+    "atomMass": 183.85,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      12,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 74,
+    "type": "elem"
+  },
+  {
+    "id": 84,
+    "sign": "Re",
+    "name": "Рений",
+    "atomMass": 186.207,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      13,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 75,
+    "type": "elem"
+  },
+  {
+    "id": 85,
+    "sign": "Os",
+    "name": "Осмий",
+    "atomMass": 190.2,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      14,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 76,
+    "type": "elem"
+  },
+  {
+    "id": 86,
+    "sign": "Ir",
+    "name": "Иридий",
+    "atomMass": 192.22,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      15,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 77,
+    "type": "elem"
+  },
+  {
+    "id": 87,
+    "sign": "Pt",
+    "name": "Платина",
+    "atomMass": 195.08,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      17,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 78,
+    "type": "elem"
+  },
+  {
+    "id": 88,
+    "sign": "Au",
+    "name": "Золото",
+    "atomMass": 196.967,
+    "subgroup": "b",
+    "elecConf": [
+      1,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 79,
+    "type": "elem"
+  },
+  {
+    "id": 89,
+    "sign": "Hg",
+    "name": "Ртуть",
+    "atomMass": 200.59,
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 80,
+    "type": "elem"
+  },
+  {
+    "id": 90,
+    "sign": "Tl",
+    "name": "Таллий",
+    "atomMass": 204.38,
+    "subgroup": "a",
+    "elecConf": [
+      3,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 81,
+    "type": "elem"
+  },
+  {
+    "id": 91,
+    "sign": "Pb",
+    "name": "Свинец",
+    "atomMass": 207.19,
+    "subgroup": "a",
+    "elecConf": [
+      4,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 82,
+    "type": "elem"
+  },
+  {
+    "id": 92,
+    "sign": "Bi",
+    "name": "Висмут",
+    "atomMass": 208.98,
+    "subgroup": "a",
+    "elecConf": [
+      5,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 83,
+    "type": "elem"
+  },
+  {
+    "id": 93,
+    "sign": "Po",
+    "name": "Полоний",
+    "atomMass": 209.98,
+    "subgroup": "a",
+    "elecConf": [
+      6,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 84,
+    "type": "elem"
+  },
+  {
+    "id": 94,
+    "sign": "At",
+    "name": "Астат",
+    "atomMass": 209.99,
+    "subgroup": "a",
+    "elecConf": [
+      7,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "a",
+    "atomNum": 85,
+    "type": "elem"
+  },
+  {
+    "id": 95,
+    "sign": "Rn",
+    "name": "Радон",
+    "atomMass": "[222]",
+    "subgroup": "a",
+    "elecConf": [
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "g",
+    "atomNum": 86,
+    "type": "elem"
+  },
+  {
+    "id": 96,
+    "span": "column-span-2",
+    "type": "empty"
+  },
+  {
+    "id": 97,
+    "content": "7",
+    "span": "",
+    "type": "markup"
+  },
+  {
+    "id": 98,
+    "sign": "Fr",
+    "name": "Франций",
+    "atomMass": "[223]",
+    "subgroup": "a",
+    "elecConf": [
+      1,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 87,
+    "type": "elem"
+  },
+  {
+    "id": 99,
+    "sign": "Ra",
+    "name": "Радий",
+    "atomMass": "[226]",
+    "subgroup": "a",
+    "elecConf": [
+      2,
+      8,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 88,
+    "type": "elem"
+  },
+  {
+    "id": 100,
+    "sign": "Ac",
+    "name": "Актиний",
+    "atomMass": "[227]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      9,
+      18,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 89,
+    "type": "elem"
+  },
+  {
+    "id": 101,
+    "sign": "Rf",
+    "name": "Фезерфордий",
+    "atomMass": "[261]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      10,
+      32,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 104,
+    "type": "elem"
+  },
+  {
+    "id": 102,
+    "sign": "Db",
+    "name": "Дубний",
+    "atomMass": "[262]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      11,
+      32,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 105,
+    "type": "elem"
+  },
+  {
+    "id": 103,
+    "sign": "Sg",
+    "name": "Сиборгий",
+    "atomMass": "[263]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      12,
+      32,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 106,
+    "type": "elem"
+  },
+  {
+    "id": 104,
+    "sign": "Bh",
+    "name": "Борий",
+    "atomMass": "[262]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      13,
+      32,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 107,
+    "type": "elem"
+  },
+  {
+    "id": 105,
+    "sign": "Hs",
+    "name": "Хассий",
+    "atomMass": "[265]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      14,
+      32,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 108,
+    "type": "elem"
+  },
+  {
+    "id": 106,
+    "sign": "Mt",
+    "name": "Мейтнерий",
+    "atomMass": "[266]",
+    "subgroup": "b",
+    "elecConf": [
+      2,
+      15,
+      32,
+      32,
+      18,
+      8,
+      2
+    ],
+    "chemProp": "m",
+    "atomNum": 109,
+    "type": "elem"
+  }
+]
