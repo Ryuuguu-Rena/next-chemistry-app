@@ -49,3 +49,9 @@
   background: white;
   border-radius: 10px;
 }
+.placeSign{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30pt;
+  color: #5b6fd7;
+}

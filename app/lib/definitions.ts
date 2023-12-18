@@ -1,5 +1,4 @@
 export type ChemElem = {
-  id: number,
   sign: string,
   name: string,
   atomMass: number,
@@ -11,13 +10,11 @@ export type ChemElem = {
 }
 
 export type EmptyCell = {
-  id: number,
   span: string,
   type: string
 }
 
 export type MarkupCell = {
-  id: number,
   content: string,
   span: string,
   type: string

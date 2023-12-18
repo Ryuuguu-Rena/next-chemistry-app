@@ -1,95 +1,78 @@
 [
   {
-    "id": 0,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 1,
     "content": "I",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 2,
     "content": "II",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 3,
     "content": "III",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 4,
     "content": "IV",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 5,
     "content": "V",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 6,
     "content": "VI",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 7,
     "content": "VII",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 8,
     "content": "VIII",
     "span": "column-span-3",
     "type": "markup"
   },
   {
-    "id": 9,
     "content": "1",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 10,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 11,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 12,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 13,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 14,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 15,
     "span": "",
     "type": "empty"
   },
   {
-    "id": 16,
     "sign": "H",
     "name": "Водород",
     "atomMass": 1.00794,
@@ -102,7 +85,6 @@
     "type": "elem"
   },
   {
-    "id": 17,
     "sign": "He",
     "name": "Гелий",
     "atomMass": 4.002602,
@@ -115,18 +97,15 @@
     "type": "elem"
   },
   {
-    "id": 18,
     "span": "column-span-2 row-span-3",
     "type": "empty"
   },
   {
-    "id": 19,
     "content": "2",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 20,
     "sign": "Li",
     "name": "Литий",
     "atomMass": 6.941,
@@ -140,7 +119,6 @@
     "type": "elem"
   },
   {
-    "id": 21,
     "sign": "Be",
     "name": "Бериллий",
     "atomMass": 9.0122,
@@ -154,7 +132,6 @@
     "type": "elem"
   },
   {
-    "id": 22,
     "sign": "B",
     "name": "Бор",
     "atomMass": 10.811,
@@ -168,7 +145,6 @@
     "type": "elem"
   },
   {
-    "id": 23,
     "sign": "C",
     "name": "Углерод",
     "atomMass": 12.011,
@@ -182,7 +158,6 @@
     "type": "elem"
   },
   {
-    "id": 24,
     "sign": "N",
     "name": "Азот",
     "atomMass": 14.007,
@@ -196,7 +171,6 @@
     "type": "elem"
   },
   {
-    "id": 25,
     "sign": "O",
     "name": "Кислород",
     "atomMass": 15.999,
@@ -210,7 +184,6 @@
     "type": "elem"
   },
   {
-    "id": 26,
     "sign": "F",
     "name": "Фтор",
     "atomMass": 18.998,
@@ -224,7 +197,6 @@
     "type": "elem"
   },
   {
-    "id": 27,
     "sign": "Ne",
     "name": "Неон",
     "atomMass": 20.179,
@@ -238,13 +210,11 @@
     "type": "elem"
   },
   {
-    "id": 28,
     "content": "3",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 29,
     "sign": "Na",
     "name": "Натрий",
     "atomMass": 22.99,
@@ -259,7 +229,6 @@
     "type": "elem"
   },
   {
-    "id": 30,
     "sign": "Mg",
     "name": "Магний",
     "atomMass": 24.305,
@@ -274,7 +243,6 @@
     "type": "elem"
   },
   {
-    "id": 31,
     "sign": "Al",
     "name": "Алюминий",
     "atomMass": 26.9815,
@@ -289,7 +257,6 @@
     "type": "elem"
   },
   {
-    "id": 32,
     "sign": "Si",
     "name": "Кремний",
     "atomMass": 28.086,
@@ -304,7 +271,6 @@
     "type": "elem"
   },
   {
-    "id": 33,
     "sign": "P",
     "name": "Фосфор",
     "atomMass": 30.974,
@@ -319,7 +285,6 @@
     "type": "elem"
   },
   {
-    "id": 34,
     "sign": "S",
     "name": "Сера",
     "atomMass": 32.066,
@@ -334,7 +299,6 @@
     "type": "elem"
   },
   {
-    "id": 35,
     "sign": "Cl",
     "name": "Хлор",
     "atomMass": 35.453,
@@ -349,7 +313,6 @@
     "type": "elem"
   },
   {
-    "id": 36,
     "sign": "Ar",
     "name": "Аргон",
     "atomMass": 39.948,
@@ -364,13 +327,11 @@
     "type": "elem"
   },
   {
-    "id": 37,
     "content": "4",
     "span": "row-span-2",
     "type": "markup"
   },
   {
-    "id": 38,
     "sign": "K",
     "name": "Калий",
     "atomMass": 39.098,
@@ -386,7 +347,6 @@
     "type": "elem"
   },
   {
-    "id": 39,
     "sign": "Ca",
     "name": "Кальций",
     "atomMass": 40.08,
@@ -402,7 +362,6 @@
     "type": "elem"
   },
   {
-    "id": 40,
     "sign": "Sc",
     "name": "Скандий",
     "atomMass": 44.956,
@@ -418,7 +377,6 @@
     "type": "elem"
   },
   {
-    "id": 41,
     "sign": "Ti",
     "name": "Титан",
     "atomMass": 47.9,
@@ -434,7 +392,6 @@
     "type": "elem"
   },
   {
-    "id": 42,
     "sign": "V",
     "name": "Ванадий",
     "atomMass": 50.941,
@@ -450,7 +407,6 @@
     "type": "elem"
   },
   {
-    "id": 43,
     "sign": "Cr",
     "name": "Хром",
     "atomMass": 51.9961,
@@ -466,7 +422,6 @@
     "type": "elem"
   },
   {
-    "id": 44,
     "sign": "Mn",
     "name": "Марганец",
     "atomMass": 54.938,
@@ -482,7 +437,6 @@
     "type": "elem"
   },
   {
-    "id": 45,
     "sign": "Fe",
     "name": "Железо",
     "atomMass": 55.845,
@@ -498,7 +452,6 @@
     "type": "elem"
   },
   {
-    "id": 46,
     "sign": "Co",
     "name": "Кобальт",
     "atomMass": 58.9332,
@@ -514,7 +467,6 @@
     "type": "elem"
   },
   {
-    "id": 47,
     "sign": "Ni",
     "name": "Никель",
     "atomMass": 58.6934,
@@ -530,7 +482,6 @@
     "type": "elem"
   },
   {
-    "id": 48,
     "sign": "Cu",
     "name": "Медь",
     "atomMass": 63.548,
@@ -546,7 +497,6 @@
     "type": "elem"
   },
   {
-    "id": 49,
     "sign": "Zn",
     "name": "Цинк",
     "atomMass": 65.39,
@@ -562,7 +512,6 @@
     "type": "elem"
   },
   {
-    "id": 50,
     "sign": "Ga",
     "name": "Галий",
     "atomMass": 69.72,
@@ -578,7 +527,6 @@
     "type": "elem"
   },
   {
-    "id": 51,
     "sign": "Ge",
     "name": "Германий",
     "atomMass": 72.59,
@@ -594,7 +542,6 @@
     "type": "elem"
   },
   {
-    "id": 52,
     "sign": "As",
     "name": "Мышьяк",
     "atomMass": 74.992,
@@ -610,7 +557,6 @@
     "type": "elem"
   },
   {
-    "id": 53,
     "sign": "Se",
     "name": "Селен",
     "atomMass": 78.96,
@@ -626,7 +572,6 @@
     "type": "elem"
   },
   {
-    "id": 54,
     "sign": "Br",
     "name": "Бром",
     "atomMass": 79.904,
@@ -642,7 +587,6 @@
     "type": "elem"
   },
   {
-    "id": 55,
     "sign": "Kr",
     "name": "Криптон",
     "atomMass": 83.8,
@@ -658,18 +602,15 @@
     "type": "elem"
   },
   {
-    "id": 56,
     "span": "column-span-2",
     "type": "empty"
   },
   {
-    "id": 57,
     "content": "5",
     "span": "row-span-2",
     "type": "markup"
   },
   {
-    "id": 58,
     "sign": "Rb",
     "name": "Рубидий",
     "atomMass": 85.468,
@@ -686,7 +627,6 @@
     "type": "elem"
   },
   {
-    "id": 59,
     "sign": "Sr",
     "name": "Стронций",
     "atomMass": 87.62,
@@ -703,7 +643,6 @@
     "type": "elem"
   },
   {
-    "id": 60,
     "sign": "Y",
     "name": "Иттрий",
     "atomMass": 88.906,
@@ -720,7 +659,6 @@
     "type": "elem"
   },
   {
-    "id": 61,
     "sign": "Zr",
     "name": "Цирконий",
     "atomMass": 91.22,
@@ -737,7 +675,6 @@
     "type": "elem"
   },
   {
-    "id": 62,
     "sign": "Nb",
     "name": "Ниобий",
     "atomMass": 92.906,
@@ -754,7 +691,6 @@
     "type": "elem"
   },
   {
-    "id": 63,
     "sign": "Mo",
     "name": "Молибден",
     "atomMass": 95.94,
@@ -771,7 +707,6 @@
     "type": "elem"
   },
   {
-    "id": 64,
     "sign": "Tc",
     "name": "Технеций",
     "atomMass": 97.91,
@@ -788,7 +723,6 @@
     "type": "elem"
   },
   {
-    "id": 65,
     "sign": "Ru",
     "name": "Рутений",
     "atomMass": 101.07,
@@ -805,7 +739,6 @@
     "type": "elem"
   },
   {
-    "id": 66,
     "sign": "Rh",
     "name": "Родий",
     "atomMass": 102.906,
@@ -822,7 +755,6 @@
     "type": "elem"
   },
   {
-    "id": 67,
     "sign": "Pd",
     "name": "Палладий",
     "atomMass": 106.4,
@@ -839,7 +771,6 @@
     "type": "elem"
   },
   {
-    "id": 68,
     "sign": "Ag",
     "name": "Серебро",
     "atomMass": 107.868,
@@ -856,7 +787,6 @@
     "type": "elem"
   },
   {
-    "id": 69,
     "sign": "Cd",
     "name": "Кадмий",
     "atomMass": 112.41,
@@ -873,7 +803,6 @@
     "type": "elem"
   },
   {
-    "id": 70,
     "sign": "In",
     "name": "Индий",
     "atomMass": 114.82,
@@ -890,7 +819,6 @@
     "type": "elem"
   },
   {
-    "id": 71,
     "sign": "Sn",
     "name": "Олово",
     "atomMass": 118.71,
@@ -907,7 +835,6 @@
     "type": "elem"
   },
   {
-    "id": 72,
     "sign": "Sb",
     "name": "Сурьма",
     "atomMass": 121.75,
@@ -924,7 +851,6 @@
     "type": "elem"
   },
   {
-    "id": 73,
     "sign": "Te",
     "name": "Теллур",
     "atomMass": 127.6,
@@ -941,7 +867,6 @@
     "type": "elem"
   },
   {
-    "id": 74,
     "sign": "I",
     "name": "Иод",
     "atomMass": 126.905,
@@ -958,7 +883,6 @@
     "type": "elem"
   },
   {
-    "id": 75,
     "sign": "Xe",
     "name": "Ксенон",
     "atomMass": 131.29,
@@ -975,18 +899,15 @@
     "type": "elem"
   },
   {
-    "id": 76,
     "span": "column-span-2",
     "type": "empty"
   },
   {
-    "id": 77,
     "content": "6",
     "span": "row-span-2",
     "type": "markup"
   },
   {
-    "id": 78,
     "sign": "Cs",
     "name": "Цезий",
     "atomMass": 132.905,
@@ -1004,7 +925,6 @@
     "type": "elem"
   },
   {
-    "id": 79,
     "sign": "Ba",
     "name": "Барий",
     "atomMass": 137.33,
@@ -1022,7 +942,6 @@
     "type": "elem"
   },
   {
-    "id": 80,
     "sign": "La",
     "name": "Лантан",
     "atomMass": 138.906,
@@ -1040,7 +959,6 @@
     "type": "elem"
   },
   {
-    "id": 81,
     "sign": "Hf",
     "name": "Гафний",
     "atomMass": 178.49,
@@ -1058,7 +976,6 @@
     "type": "elem"
   },
   {
-    "id": 82,
     "sign": "Ta",
     "name": "Тантал",
     "atomMass": 180.948,
@@ -1076,7 +993,6 @@
     "type": "elem"
   },
   {
-    "id": 83,
     "sign": "W",
     "name": "Вольфрам",
     "atomMass": 183.85,
@@ -1094,7 +1010,6 @@
     "type": "elem"
   },
   {
-    "id": 84,
     "sign": "Re",
     "name": "Рений",
     "atomMass": 186.207,
@@ -1112,7 +1027,6 @@
     "type": "elem"
   },
   {
-    "id": 85,
     "sign": "Os",
     "name": "Осмий",
     "atomMass": 190.2,
@@ -1130,7 +1044,6 @@
     "type": "elem"
   },
   {
-    "id": 86,
     "sign": "Ir",
     "name": "Иридий",
     "atomMass": 192.22,
@@ -1148,7 +1061,6 @@
     "type": "elem"
   },
   {
-    "id": 87,
     "sign": "Pt",
     "name": "Платина",
     "atomMass": 195.08,
@@ -1166,7 +1078,6 @@
     "type": "elem"
   },
   {
-    "id": 88,
     "sign": "Au",
     "name": "Золото",
     "atomMass": 196.967,
@@ -1184,7 +1095,6 @@
     "type": "elem"
   },
   {
-    "id": 89,
     "sign": "Hg",
     "name": "Ртуть",
     "atomMass": 200.59,
@@ -1202,7 +1112,6 @@
     "type": "elem"
   },
   {
-    "id": 90,
     "sign": "Tl",
     "name": "Таллий",
     "atomMass": 204.38,
@@ -1220,7 +1129,6 @@
     "type": "elem"
   },
   {
-    "id": 91,
     "sign": "Pb",
     "name": "Свинец",
     "atomMass": 207.19,
@@ -1238,7 +1146,6 @@
     "type": "elem"
   },
   {
-    "id": 92,
     "sign": "Bi",
     "name": "Висмут",
     "atomMass": 208.98,
@@ -1256,7 +1163,6 @@
     "type": "elem"
   },
   {
-    "id": 93,
     "sign": "Po",
     "name": "Полоний",
     "atomMass": 209.98,
@@ -1274,7 +1180,6 @@
     "type": "elem"
   },
   {
-    "id": 94,
     "sign": "At",
     "name": "Астат",
     "atomMass": 209.99,
@@ -1292,7 +1197,6 @@
     "type": "elem"
   },
   {
-    "id": 95,
     "sign": "Rn",
     "name": "Радон",
     "atomMass": "[222]",
@@ -1310,18 +1214,15 @@
     "type": "elem"
   },
   {
-    "id": 96,
     "span": "column-span-2",
     "type": "empty"
   },
   {
-    "id": 97,
     "content": "7",
     "span": "",
     "type": "markup"
   },
   {
-    "id": 98,
     "sign": "Fr",
     "name": "Франций",
     "atomMass": "[223]",
@@ -1340,7 +1241,6 @@
     "type": "elem"
   },
   {
-    "id": 99,
     "sign": "Ra",
     "name": "Радий",
     "atomMass": "[226]",
@@ -1359,7 +1259,6 @@
     "type": "elem"
   },
   {
-    "id": 100,
     "sign": "Ac",
     "name": "Актиний",
     "atomMass": "[227]",
@@ -1378,7 +1277,6 @@
     "type": "elem"
   },
   {
-    "id": 101,
     "sign": "Rf",
     "name": "Фезерфордий",
     "atomMass": "[261]",
@@ -1397,7 +1295,6 @@
     "type": "elem"
   },
   {
-    "id": 102,
     "sign": "Db",
     "name": "Дубний",
     "atomMass": "[262]",
@@ -1416,7 +1313,6 @@
     "type": "elem"
   },
   {
-    "id": 103,
     "sign": "Sg",
     "name": "Сиборгий",
     "atomMass": "[263]",
@@ -1435,7 +1331,6 @@
     "type": "elem"
   },
   {
-    "id": 104,
     "sign": "Bh",
     "name": "Борий",
     "atomMass": "[262]",
@@ -1454,7 +1349,6 @@
     "type": "elem"
   },
   {
-    "id": 105,
     "sign": "Hs",
     "name": "Хассий",
     "atomMass": "[265]",
@@ -1473,7 +1367,6 @@
     "type": "elem"
   },
   {
-    "id": 106,
     "sign": "Mt",
     "name": "Мейтнерий",
     "atomMass": "[266]",

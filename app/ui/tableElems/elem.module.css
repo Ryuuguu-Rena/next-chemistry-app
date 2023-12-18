@@ -3,12 +3,16 @@
   position: relative;
   overflow: hidden;
 }
+.elem:hover{
+  opacity: 50%;
+}
 .sign{
   position: absolute;
   font-size: 16pt;
   font-weight: bold;
   top: -10%;
   left: 5%;
+  user-select: none;
 }
 .name{
   position: absolute;
@@ -16,6 +20,7 @@
   font-weight: bold;
   bottom: 0%;
   left: 5%;
+  user-select: none;
 }
 .atomNum{
   position: absolute;
@@ -26,6 +31,7 @@
   right: 14%;
   font-size: 7pt;
   font-weight: bold;
+  user-select: none;
 }
 .atomMass{
   position: absolute;
@@ -33,6 +39,7 @@
   top: 30%;
   font-size: 7pt;
   font-weight: bold;
+  user-select: none;
 }
 .elecConf{
   display: flex;
@@ -45,6 +52,7 @@
   font-size: 5pt;
   font-weight: bold;
   line-height: 5pt;
+  user-select: none;
 }
 .metal{
   background: #7bff86;

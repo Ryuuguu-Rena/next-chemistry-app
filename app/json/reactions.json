@@ -1,0 +1,10 @@
+[
+  {
+    "id": 0,
+    "reagents": ["Na", "O"],
+    "products": ["Na2O"],
+    "conditions": {
+
+    }
+  }
+]

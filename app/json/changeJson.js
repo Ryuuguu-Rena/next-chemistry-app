@@ -3,7 +3,7 @@ const fs = require('node:fs/promises');
 let recreateId = async () => {
   let chemElems = JSON.parse(await fs.readFile('chemElems.json', {encoding: 'utf8'}));
   chemElems.map((elem, i) => {
-    elem.id = i
+    delete elem.id
   })
   chemElems = JSON.stringify(chemElems, null, 2);
   try {
