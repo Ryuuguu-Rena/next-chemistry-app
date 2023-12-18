@@ -3,8 +3,12 @@
     "id": 0,
     "reagents": ["Na", "O"],
     "products": ["Na2O"],
-    "conditions": {
-
-    }
+    "conditions": {}
+  },
+  {
+    "id": 1,
+    "reagents": ["Ti", "Rn", "Cs", "He"],
+    "products": ["MUHAHAHAHAHA"],
+    "conditions": {}
   }
 ]

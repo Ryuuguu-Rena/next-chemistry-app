@@ -1,0 +1,40 @@
+.cross{
+  position: absolute;
+  top: 4vh;
+  right: 2vw;
+}
+.shadow{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(5, 5, 5, 0.9);
+}
+.modalWindow{
+  position: fixed;
+  padding: 2vh 2vw;
+  top: 4vh;
+  bottom: 4vh;
+  left: 8vw;
+  right: 8vw;
+  background: white;
+  border-radius: 10px;
+}
+.header{
+  text-align: center;
+  font-size: 24pt;
+  font-weight: bold;
+  color: #5b6fd7;
+}
+.noReactions{
+  margin-top: 33vh;
+  font-size: 20pt;
+}
+.reactionsList{
+  display: flex;
+  justify-content: center;
+}
+.reaction{
+
+}

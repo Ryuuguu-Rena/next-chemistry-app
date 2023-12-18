@@ -1,0 +1,15 @@
+.container{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 2vh;
+  right: 2vw;
+}
+.history{
+  border: 5px solid #5b6fd7;
+  border-radius: 10px;
+  padding: 1vh 1vw;
+  font-size: 20pt;
+  margin-right: 3vw;
+}

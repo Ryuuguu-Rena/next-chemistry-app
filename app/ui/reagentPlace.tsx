@@ -1,11 +1,11 @@
 import styles from '@/app/home.module.css'
 import Image from 'next/image'
-import { ChemElem } from '../lib/definitions'
+import { ChemElem, isChemElem } from '../lib/definitions'
 
 export default function ReagentPlace({
   onClick, value
 } : {
-  onClick?: Function, value?: ChemElem
+  onClick?: Function, value?: ChemElem | string
 }) {
   let getCurrentSign = () => {
     if (onClick)
@@ -13,16 +13,20 @@ export default function ReagentPlace({
   }
   return (
     <div className={styles.reagentPlace} onClick={getCurrentSign}>
-      {value ? 
-        <div className={styles.placeSign}>{value.sign}</div>
+      {value && isChemElem(value as ChemElem) ? 
+        <div className={styles.placeSign}>{(value as ChemElem).sign}</div>
+        : typeof(value) == 'string' ?
+        <div className={styles.placeSign}>{value}</div>
          :
-        <Image
-          src='/svg/plus.svg'
-          className={styles.reagentPlus}
-          height={144}
-          width={144}
-          alt='add reagent'
-        />}
+         <Image
+           src='/svg/plus.svg'
+           className={styles.reagentPlus}
+           height={144}
+           width={144}
+           alt='add reagent'
+         />
+
+      }
     </div>
   )
 }

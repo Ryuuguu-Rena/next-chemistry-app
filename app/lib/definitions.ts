@@ -9,6 +9,10 @@ export type ChemElem = {
   type: string
 }
 
+export function isChemElem(elem: ChemElem): elem is ChemElem {
+  return elem.type == 'elem'
+}
+
 export type EmptyCell = {
   span: string,
   type: string
@@ -18,4 +22,11 @@ export type MarkupCell = {
   content: string,
   span: string,
   type: string
+}
+
+export type Reaction = {
+  id: number,
+  reagents: string[],
+  products: string[],
+  conditions: object
 }
