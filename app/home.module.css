@@ -1,0 +1,57 @@
+.container{
+  margin: 1vh;
+  height: 95vh;
+  background: white;
+  border-radius: 10px;
+}
+.reagentPlace{
+  display: inline-block;
+  height: 35vh;
+  width: 25vh;
+  line-height: 35vh;
+  vertical-align: middle;
+  border-radius: 10px;
+  outline: 10px solid #beeeff;
+  margin-right: 2vw;
+}
+.reagents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5vh;
+  height: 95vh;
+}
+.reagentPlus{
+  height: 30vh;
+  display: inline-block;
+  width: 100%;
+}
+
+.elemsTableShadow{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(5, 5, 5, 0.7);
+}
+.elemsTable{
+  display: grid;
+  padding: 2vh 2vw;
+  grid-template-rows: repeat(11, 1fr);
+  grid-template-columns: repeat(11, 1fr);
+  gap: 0;
+  position: fixed;
+  top: 4vh;
+  bottom: 4vh;
+  left: 8vw;
+  right: 8vw;
+  background: white;
+  border-radius: 10px;
+}
+.placeSign{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30pt;
+  color: #5b6fd7;
+}
