@@ -1,4 +1,4 @@
-export type ChemElem = {
+export type ElemCell = {
   sign: string,
   name: string,
   atomMass: number,
@@ -9,7 +9,7 @@ export type ChemElem = {
   type: string
 }
 
-export function isChemElem(elem: ChemElem): elem is ChemElem {
+export function isElemCell(elem: ElemCell): elem is ElemCell {
   return elem.type == 'elem'
 }
 
@@ -29,4 +29,10 @@ export type Reaction = {
   reagents: string[],
   products: string[],
   conditions: object
+}
+
+export type Reagent = {
+  id: number,
+  sign: string,
+  name: string
 }

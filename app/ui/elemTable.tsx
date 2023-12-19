@@ -2,8 +2,8 @@
 
 import elemStyle from '@/app/ui/tableElems/elem.module.css'
 import styles from '@/app/home.module.css'
-import chemElems from '@/app/json/chemElems.json'
-import { ChemElem, EmptyCell, MarkupCell } from '@/app/lib/definitions'
+import elemCells from '@/app/json/elemCells.json'
+import { ElemCell, EmptyCell, MarkupCell } from '@/app/lib/definitions'
 import Elem from '@/app/ui/tableElems/elem'
 import Markup from '@/app/ui/tableElems/markup'
 import Empty from '@/app/ui/tableElems/empty'
@@ -27,17 +27,17 @@ export default function ElemTable({
 
     if (target?.firstChild){
       selectedElem = (target.firstChild as HTMLDivElement).innerHTML;
-      setReagent(chemElems.find(item => item.sign == selectedElem));
+      setReagent(elemCells.find(item => item.sign == selectedElem));
       hideTable()
     }
   }
   return (
   <div className={styles.elemsTableShadow + ' ' + (visible ? '' : 'hidden')}>
     <div className={styles.elemsTable} onClick={getElemSign}>
-      {chemElems.map((elem, i) => {
+      {elemCells.map((elem, i) => {
         if (elem.type == 'elem'){
           return (
-            <Elem key={i} elem={elem as ChemElem}/>
+            <Elem key={i} elem={elem as ElemCell}/>
           )
         }
         else if (elem.type == 'markup'){

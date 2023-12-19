@@ -4,7 +4,7 @@ import styles from './home.module.css'
 import ReagentPlace from '@/app/ui/reagentPlace'
 import ElemTable from '@/app/ui/elemTable'
 import { useState } from 'react'
-import { ChemElem, Reaction } from './lib/definitions'
+import { ElemCell, Reaction } from './lib/definitions'
 import ReactionBtn from '@/app/ui/reactionBtn'
 import ControlPanel from './ui/control/controlPanel'
 import History from './ui/history/history'
@@ -13,8 +13,8 @@ import Settings from './ui/settings'
 export default function Home() {
   let [tableVisible, setTableVisible] = useState(false);
   let [historyVisible, setHistoryVisible] = useState(false);
-  let [placedReagents, setPlacedReagents] = useState([] as ChemElem[]);
-  let [currentReagent, setCurrentReagent] = useState(null as ChemElem | null);
+  let [placedReagents, setPlacedReagents] = useState([] as ElemCell[]);
+  let [currentReagent, setCurrentReagent] = useState(null as ElemCell | null);
   let [reaction, setReaction] = useState(null as Reaction | null);
   let [reactionsHistory, setReactionsHistory] = useState([] as Reaction[]);
   let updateHistory = (reaction: Reaction | undefined) => {
@@ -24,7 +24,7 @@ export default function Home() {
       setReactionsHistory(reactionsHistory)
     }
   }
-  let setReagent = (reagent: ChemElem) => {
+  let setReagent = (reagent: ElemCell) => {
     if (currentReagent){
       placedReagents[placedReagents.indexOf(currentReagent)] = reagent;
       setPlacedReagents(placedReagents)
@@ -34,7 +34,7 @@ export default function Home() {
       setPlacedReagents(placedReagents)
     }
   };
-  let showTable = (selectedReagent: ChemElem | null) => {
+  let showTable = (selectedReagent: ElemCell | null) => {
     setCurrentReagent(selectedReagent);
     setTableVisible(true)
   };
@@ -50,7 +50,7 @@ export default function Home() {
             return(
               <ReagentPlace 
                 key={i} 
-                onClick={(placedReagent: ChemElem) => showTable(placedReagent)} 
+                onClick={(placedReagent: ElemCell) => showTable(placedReagent)} 
                 value={reagent} />
             )
           })}
@@ -79,7 +79,7 @@ export default function Home() {
       <ElemTable 
         visible={tableVisible} 
         hideTable={() => setTableVisible(false)} 
-        setReagent={(reagent: ChemElem) => setReagent(reagent)} 
+        setReagent={(reagent: ElemCell) => setReagent(reagent)} 
       />
     </main>
   )

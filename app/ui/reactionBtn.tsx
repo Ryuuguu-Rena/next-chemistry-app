@@ -1,13 +1,13 @@
 import styles from '@/app/home.module.css'
 import Image from 'next/image'
 import reactions from '@/app/json/reactions.json'
-import { ChemElem } from '../lib/definitions'
+import { ElemCell } from '../lib/definitions'
 import { arraysEqual } from '../lib/utils'
 
 export default function ReactionBtn({ 
   reagents, startReaction 
 } : { 
-  reagents: ChemElem[], startReaction: Function 
+  reagents: ElemCell[], startReaction: Function 
 }) {
   let getReaction = () => {    
     let reaction = reactions.find((reac) => 

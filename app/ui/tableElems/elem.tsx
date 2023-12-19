@@ -1,7 +1,7 @@
 import styles from '@/app/ui/tableElems/elem.module.css'
-import { ChemElem } from '@/app/lib/definitions'
+import { ElemCell } from '@/app/lib/definitions'
 
-export default function Elem({ elem } : { elem: ChemElem }) {
+export default function Elem({ elem } : { elem: ElemCell }) {
   return(
     <div className={styles.elem + ' ' + (elem.chemProp == 'm' ? styles.metal : elem.chemProp == 'n' 
     ? styles.nemetal : elem.chemProp == 'a' ? styles.amphotern : styles.gas)}>
