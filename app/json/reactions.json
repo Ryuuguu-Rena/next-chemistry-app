@@ -1,14 +1,21 @@
 [
   {
-    "id": 0,
-    "reagents": ["Na", "O"],
-    "products": ["Na2O"],
-    "conditions": {}
-  },
-  {
-    "id": 1,
-    "reagents": ["Ti", "Rn", "Cs", "He"],
-    "products": ["MUHAHAHAHAHA"],
-    "conditions": {}
+    "reagents": [
+      {
+        "sign": "Na",
+        "name": "Натрий"
+      }, 
+      {
+        "sign": "O2",
+        "name": "Кислород" 
+      }
+    ],
+    "products": 
+    [
+      {
+        "sign": "Na2O",
+        "name": "Оксид натрия"
+      }
+    ]
   }
 ]

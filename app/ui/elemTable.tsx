@@ -1,58 +1,82 @@
 'use client'
 
-import elemStyle from '@/app/ui/tableElems/elem.module.css'
-import styles from '@/app/home.module.css'
+import elemStyles from '@/app/ui/tableElems/elem.module.css'
+import homeStyles from '@/app/home.module.css'
 import elemCells from '@/app/json/elemCells.json'
-import { ElemCell, EmptyCell, MarkupCell } from '@/app/lib/definitions'
+import { ElemCell, EmptyCell, MarkupCell, Reagent } from '@/app/lib/definitions'
 import Elem from '@/app/ui/tableElems/elem'
 import Markup from '@/app/ui/tableElems/markup'
 import Empty from '@/app/ui/tableElems/empty'
+import Image from 'next/image'
 
 export default function ElemTable({ 
-  hideTable, visible, setReagent
+  hide, visible, setReagent, swap
 } : { 
-  hideTable: Function, visible: boolean, setReagent: Function
+  hide: Function, visible: boolean, setReagent: Function, swap: React.MouseEventHandler
 }) {
   let selectedElem: string;
-  let getElemSign = (e : React.MouseEvent<HTMLDivElement>) => {
-    let target = e.target as HTMLDivElement | null; 
-    if (target?.className.includes(elemStyle.elem))
+  let getElemSign = (event: React.MouseEvent) => {
+    let target = event.target as HTMLDivElement | null; 
+    if (target?.className.includes(elemStyles.elem))
       target = target
-    else if (target?.parentElement?.className.includes(elemStyle.elem))
+    else if (target?.parentElement?.className.includes(elemStyles.elem))
       target = target.parentElement as HTMLDivElement
-    else if (target?.parentElement?.parentElement?.className.includes(elemStyle.elem))
+    else if (target?.parentElement?.parentElement?.className.includes(elemStyles.elem))
       target = target.parentElement.parentElement as HTMLDivElement
     else 
       target = null
 
     if (target?.firstChild){
       selectedElem = (target.firstChild as HTMLDivElement).innerHTML;
-      setReagent(elemCells.find(item => item.sign == selectedElem));
-      hideTable()
+      let tableSign = (elemCells.find(item => item.sign == selectedElem) as ElemCell);
+      setReagent(({sign: tableSign.realSign, name: tableSign.name}) as Reagent);
+      hide()
     }
   }
   return (
-  <div className={styles.elemsTableShadow + ' ' + (visible ? '' : 'hidden')}>
-    <div className={styles.elemsTable} onClick={getElemSign}>
-      {elemCells.map((elem, i) => {
-        if (elem.type == 'elem'){
-          return (
-            <Elem key={i} elem={elem as ElemCell}/>
-          )
-        }
-        else if (elem.type == 'markup'){
-          return (
-            <Markup key={i} elem={elem as MarkupCell}/>
-          )
-        }
-        else{
-          return (
-            <Empty key={i} elem={elem as EmptyCell}/>
-          )
-        }
-      })}
-      <div className={styles.elem}></div>
+    <div 
+      className={homeStyles.shadow + ' ' + (visible ? '' : homeStyles.hidden)} 
+      onClick={hide as React.MouseEventHandler}
+    >
+      <Image 
+        src='/svg/cross.svg'
+        className={homeStyles.cross}
+        width={50}
+        height={50}
+        alt='Закрыть'
+      />
+      <div className={homeStyles.arrowRight}>
+        <Image 
+          src='/svg/arrowRight.svg'
+          width={100}
+          height={100}
+          alt='Перейти к таблице'
+          onClick={swap}
+        />
+        <div className={homeStyles.arrowSign}>К списку</div>
+      </div>
+      <div 
+        className={homeStyles.modalWindow + ' ' + elemStyles.elemsTable} 
+        onClick={(event) => {getElemSign(event); event.stopPropagation()}}
+      >
+        {elemCells.map((elem, i) => {
+          if (elem.type == 'elem') {
+            return (
+              <Elem key={i} elem={elem as ElemCell}/>
+            )
+          }
+          else if (elem.type == 'markup') {
+            return (
+              <Markup key={i} elem={elem as MarkupCell}/>
+            )
+          }
+          else {
+            return (
+              <Empty key={i} elem={elem as EmptyCell}/>
+            )
+          }
+        })}
+      </div>
     </div>
-  </div>
   )
 }

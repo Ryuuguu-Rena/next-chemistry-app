@@ -1,26 +1,3 @@
-.cross{
-  position: absolute;
-  top: 4vh;
-  right: 2vw;
-}
-.shadow{
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(5, 5, 5, 0.9);
-}
-.modalWindow{
-  position: fixed;
-  padding: 2vh 2vw;
-  top: 4vh;
-  bottom: 4vh;
-  left: 8vw;
-  right: 8vw;
-  background: white;
-  border-radius: 10px;
-}
 .header{
   text-align: center;
   font-size: 24pt;
@@ -30,11 +7,16 @@
 .noReactions{
   margin-top: 33vh;
   font-size: 20pt;
+  text-align: center;
 }
 .reactionsList{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 .reaction{
-
+  width: 100%;
+  padding: 2vh 0;
+  text-align: center;
+  border-bottom: 1px solid #898989;
+  font-size: 18pt;
 }

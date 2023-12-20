@@ -1,23 +1,26 @@
 import styles from './history.module.css'
+import homeStyles from '@/app/home.module.css'
 import { Reaction } from '@/app/lib/definitions'
 import Image from 'next/image'
 
 export default function History({ 
-  reactionsHistory, historyVisible, setHistoryVisible
+  reactionsHistory /*back*/, visible, hide
 } : { 
-  reactionsHistory: Reaction[], historyVisible: boolean, setHistoryVisible: React.MouseEventHandler
+  reactionsHistory: Reaction[], visible: boolean, hide: React.MouseEventHandler
 }) {
   return(
-    <div className={styles.shadow + ' ' + (historyVisible ? '' : 'hidden')}>
+    <div 
+      className={homeStyles.shadow + ' ' + (visible ? '' : homeStyles.hidden)}
+      onClick={hide}
+    >
       <Image 
         src='/svg/cross.svg'
-        className={styles.cross}
+        className={homeStyles.cross}
         width={50}
         height={50}
         alt='Закрыть'
-        onClick={setHistoryVisible}
       />
-      <div className={styles.modalWindow}>
+      <div className={homeStyles.modalWindow} onClick={(event) => event.stopPropagation()}>
         <div className={styles.header}>История реакций</div>
         <div className={styles.reactionsList}>
         {reactionsHistory.length == 0 ?
@@ -29,13 +32,13 @@ export default function History({
               <div key={i} className={styles.reaction}>
                 {reaction.reagents.map((reag, i, arr) => {
                   if (i == arr.length - 1)
-                    return reag
-                  return reag + ' + '
+                    return reag.sign
+                  return reag.sign + ' + '
                 })} → 
                 {reaction.products.map((prod, i, arr) => {
                   if (i == arr.length - 1)
-                    return prod
-                  return prod + ' + '
+                    return ' ' + prod.sign
+                  return prod.sign + ' +'
                 })}
               </div>
             )

@@ -82,7 +82,8 @@
     ],
     "chemProp": "n",
     "atomNum": 1,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "H2"
   },
   {
     "sign": "He",
@@ -94,7 +95,8 @@
     ],
     "chemProp": "g",
     "atomNum": 2,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "He"
   },
   {
     "span": "column-span-2 row-span-3",
@@ -116,7 +118,8 @@
     ],
     "chemProp": "m",
     "atomNum": 3,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Li"
   },
   {
     "sign": "Be",
@@ -129,7 +132,8 @@
     ],
     "chemProp": "a",
     "atomNum": 4,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Be"
   },
   {
     "sign": "B",
@@ -142,7 +146,8 @@
     ],
     "chemProp": "n",
     "atomNum": 5,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "B"
   },
   {
     "sign": "C",
@@ -155,7 +160,8 @@
     ],
     "chemProp": "n",
     "atomNum": 6,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "C"
   },
   {
     "sign": "N",
@@ -168,7 +174,8 @@
     ],
     "chemProp": "n",
     "atomNum": 7,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "N2"
   },
   {
     "sign": "O",
@@ -181,7 +188,8 @@
     ],
     "chemProp": "n",
     "atomNum": 8,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "O2"
   },
   {
     "sign": "F",
@@ -194,7 +202,8 @@
     ],
     "chemProp": "n",
     "atomNum": 9,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "F2"
   },
   {
     "sign": "Ne",
@@ -207,7 +216,8 @@
     ],
     "chemProp": "g",
     "atomNum": 10,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ne"
   },
   {
     "content": "3",
@@ -226,7 +236,8 @@
     ],
     "chemProp": "m",
     "atomNum": 11,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Na"
   },
   {
     "sign": "Mg",
@@ -240,7 +251,8 @@
     ],
     "chemProp": "m",
     "atomNum": 12,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Mg"
   },
   {
     "sign": "Al",
@@ -254,7 +266,8 @@
     ],
     "chemProp": "a",
     "atomNum": 13,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Al"
   },
   {
     "sign": "Si",
@@ -268,7 +281,8 @@
     ],
     "chemProp": "n",
     "atomNum": 14,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Si"
   },
   {
     "sign": "P",
@@ -282,7 +296,8 @@
     ],
     "chemProp": "n",
     "atomNum": 15,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "P"
   },
   {
     "sign": "S",
@@ -296,7 +311,8 @@
     ],
     "chemProp": "n",
     "atomNum": 16,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "S"
   },
   {
     "sign": "Cl",
@@ -310,7 +326,8 @@
     ],
     "chemProp": "n",
     "atomNum": 17,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Cl2"
   },
   {
     "sign": "Ar",
@@ -324,7 +341,8 @@
     ],
     "chemProp": "g",
     "atomNum": 18,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ar"
   },
   {
     "content": "4",
@@ -344,7 +362,8 @@
     ],
     "chemProp": "m",
     "atomNum": 19,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "K"
   },
   {
     "sign": "Ca",
@@ -359,7 +378,8 @@
     ],
     "chemProp": "m",
     "atomNum": 20,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ca"
   },
   {
     "sign": "Sc",
@@ -374,7 +394,8 @@
     ],
     "chemProp": "m",
     "atomNum": 21,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Sc"
   },
   {
     "sign": "Ti",
@@ -389,7 +410,8 @@
     ],
     "chemProp": "m",
     "atomNum": 22,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ti"
   },
   {
     "sign": "V",
@@ -404,7 +426,8 @@
     ],
     "chemProp": "m",
     "atomNum": 23,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "V"
   },
   {
     "sign": "Cr",
@@ -419,7 +442,8 @@
     ],
     "chemProp": "m",
     "atomNum": 24,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Cr"
   },
   {
     "sign": "Mn",
@@ -434,7 +458,8 @@
     ],
     "chemProp": "m",
     "atomNum": 25,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Mn"
   },
   {
     "sign": "Fe",
@@ -449,7 +474,8 @@
     ],
     "chemProp": "m",
     "atomNum": 26,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Fe"
   },
   {
     "sign": "Co",
@@ -464,7 +490,8 @@
     ],
     "chemProp": "m",
     "atomNum": 27,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Co"
   },
   {
     "sign": "Ni",
@@ -479,7 +506,8 @@
     ],
     "chemProp": "m",
     "atomNum": 28,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ni"
   },
   {
     "sign": "Cu",
@@ -494,7 +522,8 @@
     ],
     "chemProp": "m",
     "atomNum": 29,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Cu"
   },
   {
     "sign": "Zn",
@@ -509,7 +538,8 @@
     ],
     "chemProp": "m",
     "atomNum": 30,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Zn"
   },
   {
     "sign": "Ga",
@@ -524,7 +554,8 @@
     ],
     "chemProp": "m",
     "atomNum": 31,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ga"
   },
   {
     "sign": "Ge",
@@ -539,7 +570,8 @@
     ],
     "chemProp": "a",
     "atomNum": 32,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ge"
   },
   {
     "sign": "As",
@@ -554,7 +586,8 @@
     ],
     "chemProp": "n",
     "atomNum": 33,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "As"
   },
   {
     "sign": "Se",
@@ -569,7 +602,8 @@
     ],
     "chemProp": "n",
     "atomNum": 34,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Se"
   },
   {
     "sign": "Br",
@@ -584,7 +618,8 @@
     ],
     "chemProp": "n",
     "atomNum": 35,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Br2"
   },
   {
     "sign": "Kr",
@@ -599,7 +634,8 @@
     ],
     "chemProp": "g",
     "atomNum": 36,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Kr"
   },
   {
     "span": "column-span-2",
@@ -624,7 +660,8 @@
     ],
     "chemProp": "m",
     "atomNum": 37,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Rb"
   },
   {
     "sign": "Sr",
@@ -640,7 +677,8 @@
     ],
     "chemProp": "m",
     "atomNum": 38,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Sr"
   },
   {
     "sign": "Y",
@@ -656,7 +694,8 @@
     ],
     "chemProp": "m",
     "atomNum": 39,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Y"
   },
   {
     "sign": "Zr",
@@ -672,7 +711,8 @@
     ],
     "chemProp": "m",
     "atomNum": 40,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Zr"
   },
   {
     "sign": "Nb",
@@ -688,7 +728,8 @@
     ],
     "chemProp": "m",
     "atomNum": 41,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Nb"
   },
   {
     "sign": "Mo",
@@ -704,7 +745,8 @@
     ],
     "chemProp": "m",
     "atomNum": 42,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Mo"
   },
   {
     "sign": "Tc",
@@ -720,7 +762,8 @@
     ],
     "chemProp": "m",
     "atomNum": 43,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Tc"
   },
   {
     "sign": "Ru",
@@ -736,7 +779,8 @@
     ],
     "chemProp": "m",
     "atomNum": 44,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ru"
   },
   {
     "sign": "Rh",
@@ -752,7 +796,8 @@
     ],
     "chemProp": "m",
     "atomNum": 45,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Rh"
   },
   {
     "sign": "Pd",
@@ -768,7 +813,8 @@
     ],
     "chemProp": "m",
     "atomNum": 46,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Pd"
   },
   {
     "sign": "Ag",
@@ -784,7 +830,8 @@
     ],
     "chemProp": "m",
     "atomNum": 47,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ag"
   },
   {
     "sign": "Cd",
@@ -800,7 +847,8 @@
     ],
     "chemProp": "m",
     "atomNum": 48,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Cd"
   },
   {
     "sign": "In",
@@ -816,7 +864,8 @@
     ],
     "chemProp": "m",
     "atomNum": 49,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "In"
   },
   {
     "sign": "Sn",
@@ -832,7 +881,8 @@
     ],
     "chemProp": "m",
     "atomNum": 50,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Sn"
   },
   {
     "sign": "Sb",
@@ -848,7 +898,8 @@
     ],
     "chemProp": "a",
     "atomNum": 51,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Sb"
   },
   {
     "sign": "Te",
@@ -864,7 +915,8 @@
     ],
     "chemProp": "n",
     "atomNum": 52,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Te"
   },
   {
     "sign": "I",
@@ -880,7 +932,8 @@
     ],
     "chemProp": "n",
     "atomNum": 53,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "I2"
   },
   {
     "sign": "Xe",
@@ -896,7 +949,8 @@
     ],
     "chemProp": "g",
     "atomNum": 54,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Xe"
   },
   {
     "span": "column-span-2",
@@ -922,7 +976,8 @@
     ],
     "chemProp": "m",
     "atomNum": 55,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Cs"
   },
   {
     "sign": "Ba",
@@ -939,7 +994,8 @@
     ],
     "chemProp": "m",
     "atomNum": 56,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ba"
   },
   {
     "sign": "La",
@@ -956,7 +1012,8 @@
     ],
     "chemProp": "m",
     "atomNum": 57,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "La"
   },
   {
     "sign": "Hf",
@@ -973,7 +1030,8 @@
     ],
     "chemProp": "m",
     "atomNum": 72,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Hf"
   },
   {
     "sign": "Ta",
@@ -990,7 +1048,8 @@
     ],
     "chemProp": "m",
     "atomNum": 73,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ta"
   },
   {
     "sign": "W",
@@ -1007,7 +1066,8 @@
     ],
     "chemProp": "m",
     "atomNum": 74,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "W"
   },
   {
     "sign": "Re",
@@ -1024,7 +1084,8 @@
     ],
     "chemProp": "m",
     "atomNum": 75,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Re"
   },
   {
     "sign": "Os",
@@ -1041,7 +1102,8 @@
     ],
     "chemProp": "m",
     "atomNum": 76,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Os"
   },
   {
     "sign": "Ir",
@@ -1058,7 +1120,8 @@
     ],
     "chemProp": "m",
     "atomNum": 77,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ir"
   },
   {
     "sign": "Pt",
@@ -1075,7 +1138,8 @@
     ],
     "chemProp": "m",
     "atomNum": 78,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Pt"
   },
   {
     "sign": "Au",
@@ -1092,7 +1156,8 @@
     ],
     "chemProp": "m",
     "atomNum": 79,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Au"
   },
   {
     "sign": "Hg",
@@ -1109,7 +1174,8 @@
     ],
     "chemProp": "m",
     "atomNum": 80,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Hg"
   },
   {
     "sign": "Tl",
@@ -1126,7 +1192,8 @@
     ],
     "chemProp": "m",
     "atomNum": 81,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Tl"
   },
   {
     "sign": "Pb",
@@ -1143,7 +1210,8 @@
     ],
     "chemProp": "m",
     "atomNum": 82,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Pb"
   },
   {
     "sign": "Bi",
@@ -1160,7 +1228,8 @@
     ],
     "chemProp": "m",
     "atomNum": 83,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Bi"
   },
   {
     "sign": "Po",
@@ -1177,7 +1246,8 @@
     ],
     "chemProp": "m",
     "atomNum": 84,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Po"
   },
   {
     "sign": "At",
@@ -1194,7 +1264,8 @@
     ],
     "chemProp": "a",
     "atomNum": 85,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "At"
   },
   {
     "sign": "Rn",
@@ -1211,7 +1282,8 @@
     ],
     "chemProp": "g",
     "atomNum": 86,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Rn"
   },
   {
     "span": "column-span-2",
@@ -1238,7 +1310,8 @@
     ],
     "chemProp": "m",
     "atomNum": 87,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Fr"
   },
   {
     "sign": "Ra",
@@ -1256,7 +1329,8 @@
     ],
     "chemProp": "m",
     "atomNum": 88,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ra"
   },
   {
     "sign": "Ac",
@@ -1274,7 +1348,8 @@
     ],
     "chemProp": "m",
     "atomNum": 89,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Ac"
   },
   {
     "sign": "Rf",
@@ -1292,7 +1367,8 @@
     ],
     "chemProp": "m",
     "atomNum": 104,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Rf"
   },
   {
     "sign": "Db",
@@ -1310,7 +1386,8 @@
     ],
     "chemProp": "m",
     "atomNum": 105,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Db"
   },
   {
     "sign": "Sg",
@@ -1328,7 +1405,8 @@
     ],
     "chemProp": "m",
     "atomNum": 106,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Sg"
   },
   {
     "sign": "Bh",
@@ -1346,7 +1424,8 @@
     ],
     "chemProp": "m",
     "atomNum": 107,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Bh"
   },
   {
     "sign": "Hs",
@@ -1364,7 +1443,8 @@
     ],
     "chemProp": "m",
     "atomNum": 108,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Hs"
   },
   {
     "sign": "Mt",
@@ -1382,6 +1462,7 @@
     ],
     "chemProp": "m",
     "atomNum": 109,
-    "type": "elem"
+    "type": "elem",
+    "realSign": "Mt"
   }
 ]

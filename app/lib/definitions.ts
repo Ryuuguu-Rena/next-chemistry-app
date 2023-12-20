@@ -5,12 +5,9 @@ export type ElemCell = {
   subgroup: string,
   elecConf: number[],
   chemProp: string,
-  atomNum: string | number,
-  type: string
-}
-
-export function isElemCell(elem: ElemCell): elem is ElemCell {
-  return elem.type == 'elem'
+  atomNum: number,
+  type: string,
+  realSign: string
 }
 
 export type EmptyCell = {
@@ -25,14 +22,26 @@ export type MarkupCell = {
 }
 
 export type Reaction = {
-  id: number,
-  reagents: string[],
-  products: string[],
-  conditions: object
+  reagents: Reagent[],  // id: number,
+  products: Reagent[]   // reagents: number[],
+                        // products: number[],
+                        // conditions: object
 }
 
 export type Reagent = {
+  sign: string,         // id: number,
+  name: string          // sign: string,
+                        // name: string
+}
+
+export type DiscReagent = { //backend
   id: number,
-  sign: string,
-  name: string
+  userId: number,
+  reagent: number
+}
+
+export type DiscReaction = { //backend
+  id: number,
+  userId: number,
+  reaction: number
 }

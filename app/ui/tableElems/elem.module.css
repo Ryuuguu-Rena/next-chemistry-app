@@ -1,3 +1,9 @@
+.elemsTable{
+  display: grid;
+  grid-template-rows: repeat(11, 1fr);
+  grid-template-columns: repeat(11, 1fr);
+  gap: 0;
+}
 .elem{
   border: 1px solid black;
   position: relative;
@@ -65,9 +71,6 @@
 }
 .gas{
   background: #b862ff
-}
-.empty{
-
 }
 .markup{
   position: relative;
