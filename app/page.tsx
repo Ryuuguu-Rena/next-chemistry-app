@@ -10,6 +10,7 @@ import ControlPanel from './ui/control/controlPanel'
 import History from './ui/history/history'
 import Settings from './ui/settings'
 import ReagentPicker from './ui/reagentPicker/reagentPicker'
+import { fetchReactions, fetchReagents, getProducts } from './lib/data'
 
 export default function Home() {
   let [tableVisible, setTableVisible] = useState(false);
@@ -19,20 +20,24 @@ export default function Home() {
   let [placedReagents, setPlacedReagents] = useState([] as Reagent[]); //возможно реверсивный порядок id
   let [currentReagent, setCurrentReagent] = useState(null as Reagent | null); //возможно стоит перенести в ReagentPlace
   let [discoveredReagents, setDiscoveredReagents] = useState([] as Reagent[]); //back
-  let [reaction, setReaction] = useState(null as Reaction | null); 
+  let [products, setProducts] = useState([] as Reagent[]); 
   let [reactionsHistory, setReactionsHistory] = useState([] as Reaction[]); //back
-  let updateHistory = (reaction: Reaction | undefined) => { //back
-    if (reaction && !reactionsHistory.includes(reaction)){
-      setReaction(reaction);
-      reaction.products.forEach((reag) => {
-        if (!discoveredReagents.includes(reag))
-          discoveredReagents.push(reag)
-      })
-      setDiscoveredReagents(discoveredReagents);
-      reactionsHistory.push(reaction); //back
-      setReactionsHistory(reactionsHistory) //back
-    }
+  let updateHistory = async () => { //back
+      fetchReactions().then((result) => setReactionsHistory(result));
+      setHistoryVisible(true)
   }
+  let checkReaction = async () => {
+    if (placedReagents.length == 0){
+      setWrongReaction(true);
+      return
+    }
+    let products = await getProducts(placedReagents);
+    if (!products){
+      setWrongReaction(true);
+      return
+    }
+    setProducts(products)
+  } 
   let setReagent = (reagent: Reagent) => {
     if (currentReagent){
       placedReagents[placedReagents.indexOf(currentReagent)] = reagent;
@@ -50,15 +55,16 @@ export default function Home() {
   }
   let showTable = (selectedReagent: Reagent | null) => {
     setWrongReaction(false)
-    setReaction(null);
+    setProducts([]);
     setCurrentReagent(selectedReagent);
-    setTableVisible(true)
+    setTableVisible(true);
+    fetchReagents().then((result) => setDiscoveredReagents(result))
   };
   return (
     <main>
       <div className={styles.container}>
         <ControlPanel 
-          setHistoryVisible={() => setHistoryVisible(true)}
+          setHistoryVisible={() => updateHistory()}
         />
         <div className={styles.reagents}>
           <ReagentPlace setReagent={() => showTable(null)} />
@@ -67,18 +73,19 @@ export default function Home() {
               <ReagentPlace
                 key={i} 
                 setReagent={(placedReagent: Reagent) => showTable(placedReagent)} 
-                deleteReagent={(reag: Reagent) => deleteReagent(reag)}
+                deleteReagent={(reag: Reagent) => {
+                  deleteReagent(reag);
+                  setProducts([])
+                }}
                 value={reagent} />
             )
           })}
           {placedReagents.length != 0 && 
             <ReactionBtn 
-              reagents={placedReagents}
-              startReaction={(reac: Reaction | undefined) => updateHistory(reac)} //back
+              startReaction={checkReaction} //back
               isWrongReaction={isWrongReaction}
-              setWrongReaction={() => setWrongReaction(true)}
             />}
-          {reaction?.products.map((product, i) => {
+          {products.length == 0 || products.map((product, i) => {
             return(
               <ReagentPlace 
                 key={i}
