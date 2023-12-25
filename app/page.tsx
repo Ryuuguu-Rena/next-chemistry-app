@@ -18,11 +18,11 @@ export default function Home() {
   let [reagentsPickerVisible, setReagentsPickerVisible] = useState(false);
   let [isWrongReaction, setWrongReaction] = useState(false);
   let [placedReagents, setPlacedReagents] = useState([] as Reagent[]); //возможно реверсивный порядок id
-  let [currentReagent, setCurrentReagent] = useState(null as Reagent | null); //возможно стоит перенести в ReagentPlace
-  let [discoveredReagents, setDiscoveredReagents] = useState([] as Reagent[]); //back
+  let [currentReagent, setCurrentReagent] = useState(null as Reagent | null);
+  let [discoveredReagents, setDiscoveredReagents] = useState([] as Reagent[]);
   let [products, setProducts] = useState([] as Reagent[]); 
-  let [reactionsHistory, setReactionsHistory] = useState([] as Reaction[]); //back
-  let updateHistory = async () => { //back
+  let [reactionsHistory, setReactionsHistory] = useState([] as Reaction[]);
+  let updateHistory = async () => {
       fetchReactions().then((result) => setReactionsHistory(result));
       setHistoryVisible(true)
   }
@@ -82,7 +82,7 @@ export default function Home() {
           })}
           {placedReagents.length != 0 && 
             <ReactionBtn 
-              startReaction={checkReaction} //back
+              startReaction={checkReaction}
               isWrongReaction={isWrongReaction}
             />}
           {products.length == 0 || products.map((product, i) => {
@@ -97,12 +97,12 @@ export default function Home() {
       </div>
       <Settings />
       <History
-        reactionsHistory={reactionsHistory} //back
+        reactionsHistory={reactionsHistory}
         visible={historyVisible}
         hide={() => setHistoryVisible(false)}
       />
       <ReagentPicker 
-        reagents={discoveredReagents} //back       
+        reagents={discoveredReagents}
         visible={reagentsPickerVisible}
         hide={() => setReagentsPickerVisible(false)}
         setReagent={(reagent: Reagent) => setReagent(reagent)}

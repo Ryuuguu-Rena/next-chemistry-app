@@ -4,7 +4,7 @@ import { Reaction } from '@/app/lib/definitions'
 import Image from 'next/image'
 
 export default function History({ 
-  reactionsHistory, /*back*/ visible, hide
+  reactionsHistory, visible, hide
 } : { 
   reactionsHistory: Reaction[], visible: boolean, hide: React.MouseEventHandler
 }) {

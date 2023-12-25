@@ -5,7 +5,7 @@ import { Reagent } from '@/app/lib/definitions'
 
 
 export default function ReagentPicker({
-  reagents /*back*/, visible, hide, setReagent, swap
+  reagents, visible, hide, setReagent, swap
 }: {
   reagents: Reagent[], visible: boolean, hide: Function, setReagent: Function, swap: React.MouseEventHandler
 }) {

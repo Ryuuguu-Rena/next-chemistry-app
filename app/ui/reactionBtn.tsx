@@ -1,7 +1,5 @@
 import styles from '@/app/home.module.css'
 import Image from 'next/image'
-import { Reagent } from '../lib/definitions'
-import { arraysEqual } from '../lib/utils'
 
 export default function ReactionBtn({ 
   startReaction, isWrongReaction

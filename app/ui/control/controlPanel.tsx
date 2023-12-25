@@ -1,6 +1,5 @@
 import styles from './control.module.css'
 import Image from 'next/image'
-import { fetchReagents } from '@/app/lib/data'
 
 export default function ControlPanel({ 
   setHistoryVisible 
